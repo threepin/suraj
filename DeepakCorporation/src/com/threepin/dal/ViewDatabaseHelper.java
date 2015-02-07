@@ -18,11 +18,11 @@ public class ViewDatabaseHelper extends SQLiteOpenHelper{
 	public void onCreate(SQLiteDatabase db) {
 	 db.execSQL("create table tblNavigation (NavId Integer primary key autoincrement ,Name varchar,visible varchar)");
 
-	db.execSQL("insert into tblNavigation (Name,visible) values ('Home','true')");
-	 db.execSQL("insert into tblNavigation (Name,visible) values ('Search Transaction','true')");
-	 db.execSQL("insert into tblNavigation (Name,visible) values ('Client List','true')");
-	 db.execSQL("insert into tblNavigation (Name,visible) values ('Employee List','true')");
-	 db.execSQL("insert into tblNavigation (Name,visible) values ('Summary','true')");
+	 db.execSQL("insert into tblNavigation (Name,visible) values ('Home','true')");
+	 db.execSQL("insert into tblNavigation (Name,visible) values ('Transactions','true')");
+	 db.execSQL("insert into tblNavigation (Name,visible) values ('Clients','true')");
+	 db.execSQL("insert into tblNavigation (Name,visible) values ('Employees','true')");
+	 db.execSQL("insert into tblNavigation (Name,visible) values ('Summarys','true')");
 	 db.execSQL("insert into tblNavigation (Name,visible) values ('Reports','false')");
 	 db.execSQL("insert into tblNavigation (Name,visible) values ('About Us','true')");
 	 db.execSQL("insert into tblNavigation (Name,visible) values ('Exit','false')");
