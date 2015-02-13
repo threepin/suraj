@@ -21,14 +21,16 @@
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
         <item>@drawable/ic_home</item>
-        <item>@drawable/ic_people</item>
-        <item>@drawable/ic_photos</item>
-        <item>@drawable/ic_communities</item>
-        <item>@drawable/ic_pages</item>
+        <item>@drawable/transaction</item>
+        <item>@drawable/clients</item>
+        <item>@drawable/employee</item>
+        <item>@drawable/sum</item>
         <item>@drawable/ic_whats_hot</item>
     </array>
     
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
+    <string name="add">ADD</string>
+    <string name="search">Search</string>
 
 </resources>

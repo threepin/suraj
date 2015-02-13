@@ -169,19 +169,19 @@ public class MainActivity extends Activity {
 			fragment = new HomeFragment();
 			break;
 		case 1:
-			fragment = new FindPeopleFragment();
+			fragment = new TransactionFragment();
 			break;
 		case 2:
-			fragment = new PhotosFragment();
+			fragment = new ClientsFragment();
 			break;
 		case 3:
-			fragment = new CommunityFragment();
+			fragment = new EmployeeFragment();
 			break;
 		case 4:
-			fragment = new PagesFragment();
+			fragment = new SummaryFragment();
 			break;
 		case 5:
-			fragment = new WhatsHotFragment();
+			fragment = new AboutUsFragment();
 			break;
 
 		default:
