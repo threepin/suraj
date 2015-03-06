@@ -18,14 +18,7 @@ public class EmployeeFragment extends Fragment {
 	
 	public EmployeeFragment(){
 		
-		addButton.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				
-				
-			}
-		});
+	
 	}
 	
 	@Override

@@ -32,5 +32,9 @@
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="add">ADD</string>
     <string name="search">Search</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_area">Enter Area</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
 
 </resources>

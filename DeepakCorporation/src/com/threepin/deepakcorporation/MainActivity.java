@@ -1,7 +1,6 @@
 package com.threepin.deepakcorporation;
 
 import java.util.ArrayList;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -16,8 +15,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
-import com.threepin.dal.DatabaseHelper;
 import com.threepin.dal.ViewDatabaseHelper;
 import com.threepin.models.NavDrawerItem;
 
